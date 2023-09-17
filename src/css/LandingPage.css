@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     font-size: 16px;
 }
 
 /*NAVBAR*/
 
-.logoHeader{
+.logoHeader {
     height: 4rem;
 }
 
-.Navbar{
+.Navbar {
     position: sticky;
     top: 0;
     z-index: 100;
@@ -33,12 +33,12 @@ html{
     transform: translateX(0);
 }
 
-.NavbarMenu{
+.NavbarMenu {
     list-style: none;
     display: none;
 }
 
-.NavbarMenu li{
+.NavbarMenu li {
     margin-top: 3.75rem;
 }
 
@@ -48,21 +48,23 @@ html{
     align-items: center;
     background-color: #68DDBD;
     position: absolute;
-    top: 85px; /* Ajuste a posição conforme necessário */
+    top: 85px;
+    /* Ajuste a posição conforme necessário */
     right: 0;
-    width: 60%; /* Ajuste a largura conforme necessário */
+    width: 60%;
+    /* Ajuste a largura conforme necessário */
     height: 100vh;
     padding: 0.63rem;
     transition: transform 0.3s ease-in-out;
     box-shadow: 0px 2px 10px gray;
 }
 
-.mobileMenu{
+.mobileMenu {
     cursor: pointer;
 }
 
 
-.mobileMenu div{
+.mobileMenu div {
     width: 2rem;
     height: 0.125rem;
     background: #EBF7F8;
@@ -77,28 +79,28 @@ html{
 
 /*BANNER*/
 
-.conteudo1{
+.conteudo1 {
     max-width: 90%;
     margin: auto;
 }
 
-.LogoBanner{
+.LogoBanner {
     display: none;
 }
 
-.paragrafo1{
+.paragrafo1 {
     color: #FF69B4;
     font-size: 2rem;
     margin-bottom: 1.5rem;
     font-weight: normal;
 }
 
-.paragrafo2{
+.paragrafo2 {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 
-.BannerBtn{
+.BannerBtn {
     border: none;
     border-radius: 10px;
     background-color: #FF69B4;
@@ -111,18 +113,18 @@ html{
 
 /*BENEFITS*/
 
-.benefits{
+.benefits {
     background-color: #68DDBD;
     margin: auto;
     text-align: center;
     padding: 3rem 0 3rem 0;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.benefitsH1{
+.benefitsH1 {
     margin: auto;
     width: 90%;
     color: white;
@@ -130,26 +132,112 @@ ul{
     margin-bottom: 4rem;
 }
 
-.benefitsCard{
+.benefitsCard {
     margin-bottom: 4rem;
     list-style: none;
 }
 
-.benefitsImages{
+.benefitsImages {
     height: 7.5rem;
 }
 
-.benefitsH2{
+.benefitsH2 {
     color: #FF69B4;
     font-size: 2.5rem;
     font-weight: 500;
 }
 
-.benefitsP{
+.benefitsP {
     font-size: 1.4rem;
     color: white;
     width: 90%;
     margin: auto;
 }
 
-  
+/*CAROUSEL*/
+.Carousel {
+    margin: 80px auto 80px auto;
+    max-width: 80%;
+}
+
+.cardCarousel {
+    height: 18.75rem;
+    margin: auto;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    background-color:#68DDBD;
+    border-radius: 50%;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #68DDBD;
+}
+
+.footerComponents{
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.footerComponents img{
+    height: 7.5rem;
+    margin-bottom: 2rem;
+}
+
+.footerComponents p{
+    color: #FF69B4;
+    margin: 0 auto 20px auto;
+    font-size: 1.5rem;
+    width: 90%;
+}
+
+.socialIcons img{
+    height: 3.75rem;
+    margin: 1rem;
+}
+
+
+.footerSection2 h3{
+    margin: 2rem 0 1rem 0;
+    color: #FF69B4;
+    font-size: 2.5rem;
+}
+
+.footerSection2 li{
+    color: #FF69B4;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.footerSection3{
+    margin: auto;
+}
+
+.footerSection3 h3{
+    margin: 2rem 0 1rem 0;
+    color: #FF69B4;
+    font-size: 2.5rem;
+}
+
+.footerSection3 img{
+    height: 2.5rem;
+}
+
+.footerSection3 p{
+    font-size: 1rem;
+}
+
+.footer-end{
+    background-color: #666163;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px 0;
+}
