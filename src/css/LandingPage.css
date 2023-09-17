@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+/*NAVBAR*/
+
+.logoHeader{
+    height: 4rem;
+}
+
+.Navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: white;
+    font-size: 1.25rem;
+    background-color: #68DDBD;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px 10px gray;
+    padding: 10px 0;
+    margin-bottom: 90px;
+}
+
+.Navbar.menuOpen {
+    transform: translateX(0);
+}
+
+.NavbarMenu{
+    list-style: none;
+    display: none;
+}
+
+.NavbarMenu li{
+    margin-top: 3.75rem;
+}
+
+.NavbarMenu.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #68DDBD;
+    position: absolute;
+    top: 85px; /* Ajuste a posição conforme necessário */
+    right: 0;
+    width: 60%; /* Ajuste a largura conforme necessário */
+    height: 100vh;
+    padding: 0.63rem;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 2px 10px gray;
+}
+
+.mobileMenu{
+    cursor: pointer;
+}
+
+
+.mobileMenu div{
+    width: 2rem;
+    height: 0.125rem;
+    background: #EBF7F8;
+    margin: 0.5rem;
+    transition: 0.3s;
+}
+
+.mobileMenu .open {
+    background-color: transparent;
+}
+
+
+/*BANNER*/
+
+.conteudo1{
+    max-width: 90%;
+    margin: auto;
+}
+
+.LogoBanner{
+    display: none;
+}
+
+.paragrafo1{
+    color: #FF69B4;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+}
+
+.paragrafo2{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.BannerBtn{
+    border: none;
+    border-radius: 10px;
+    background-color: #FF69B4;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 20px 80px;
+    margin-bottom: 3rem;
+}
+
+/*BENEFITS*/
+
+.benefits{
+    background-color: #68DDBD;
+    margin: auto;
+    text-align: center;
+    padding: 3rem 0 3rem 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.benefitsH1{
+    margin: auto;
+    width: 90%;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+.benefitsCard{
+    margin-bottom: 4rem;
+    list-style: none;
+}
+
+.benefitsImages{
+    height: 7.5rem;
+}
+
+.benefitsH2{
+    color: #FF69B4;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.benefitsP{
+    font-size: 1.4rem;
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+
+  
